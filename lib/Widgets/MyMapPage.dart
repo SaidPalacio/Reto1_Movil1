@@ -16,12 +16,28 @@ class _MyHomePageState extends State<MyHomePage> {
       category: 'Moda',
       rating: 4.5,
       location: 'calle 100 # 54-34',
+      promotions: [
+      'Descuento del 20% en ropa de invierno.',
+      '2x1 en accesorios de moda.',
+    ],
+    openingHours: [
+      'Lunes a Viernes: 9:00 AM - 8:00 PM',
+      'Sábados y Domingos: 10:00 AM - 6:00 PM',
+    ],
     ),
     Store(
       name: 'ElectroMundo',
       category: 'Electrónica',
       rating: 4.2,
       location: 'calle 102 # 76-12',
+      promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
     Store(
       name: 'FrutaExpress',
@@ -190,11 +206,15 @@ class Store {
   final String category;
   final double rating;
   final String location;
+  final List<String> promotions; // Lista de promociones
+  final List<String> openingHours; // Lista de horarios de apertura
 
   Store({
     required this.name,
     required this.category,
     required this.rating,
     required this.location,
+    required this.promotions,
+    required this.openingHours,
   });
 }
