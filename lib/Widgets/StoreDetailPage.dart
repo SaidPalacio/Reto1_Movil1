@@ -10,18 +10,40 @@ class StoreDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Detalles de la Tienda'),
+        title: Text(store.name),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('Nombre: ${store.name}'),
-            Text('Categoría: ${store.category}'),
-            Text('Rating: ${store.rating.toStringAsFixed(1)}'),
-            Text('Dirección: ${store.location}'),
-            // Agrega más detalles de la tienda aquí
+            Text(
+              'Categoría: ${store.category}',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 8),
+            Text(
+              'Rating: ${store.rating.toStringAsFixed(1)}',
+              style: TextStyle(fontSize: 16),
+            ),
+            SizedBox(height: 8),
+            Text(
+              'Dirección: ${store.location}',
+              style: TextStyle(fontSize: 16),
+            ),
+            SizedBox(height: 16),
+            Text(
+              'Promociones Actuales:',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 8),
+            // Agrega aquí las promociones actuales de la tienda
+            Text(
+              'Horarios de Atención:',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 8),
+            // Agrega aquí los horarios de atención de la tienda (pueden ser días y horas)
           ],
         ),
       ),
