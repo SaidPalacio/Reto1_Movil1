@@ -44,90 +44,210 @@ class _MyHomePageState extends State<MyHomePage> {
       category: 'Alimentos',
       rating: 4.8,
       location: 'calle 119 # 123-321',
+       promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
     Store(
       name: 'H&M',
       category: 'Moda',
       rating: 4.8,
       location: 'calle 120 # 43-54',
+       promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
     Store(
       name: 'GadgetsTech',
       category: 'Electrónica',
       rating: 4.7,
       location: 'calle 104 # 13-31',
+       promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
     Store(
       name: 'ElectroBoutique',
       category: 'Electrónica',
       rating: 4.4,
       location: 'calle 106 #20-54',
+       promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
     Store(
       name: 'SaborGourmet',
       category: 'Alimentos',
       rating: 4.1,
       location: 'calle 118 # 32-53',
+       promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
     Store(
       name: 'Mercado Fresco',
       category: 'Alimentos',
       rating: 4.7,
       location: 'calle 125 # 231-12',
+       promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
     Store(
       name: 'SuperAlimentos',
       category: 'Alimentos',
       rating: 4.6,
       location: 'calle 112 # 123-21',
+       promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
     Store(
       name: 'TechWorld',
       category: 'Electrónica',
       rating: 4.7,
       location: 'calle 107 # 32-54',
+       promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
     Store(
       name: 'Gucci',
       category: 'Moda',
       rating: 4.0,
       location: 'calle 115 # 23-46',
+       promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
      Store(
       name: 'Adidas',
       category: 'Deportes',
       rating: 4.7,
       location: 'calle 121 # 82-72',
+       promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
      Store(
       name: 'Nike',
       category: 'Deportes',
       rating: 4.6,
       location: 'calle 124 # 12-24',
+       promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
      Store(
       name: 'Puma',
       category: 'Deportes',
       rating: 4.5,
       location: 'calle 116 # 32-09',
+      promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
      Store(
       name: 'DecoVida',
       category: 'Hogar',
       rating: 4.5,
       location: 'calle 132 # 22-12',
+      promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
      Store(
       name: 'Jamar',
       category: 'Hogar',
       rating: 4.8,
       location: 'calle 134 # 102-24',
+      promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
      Store(
       name: 'Hogar Ideal',
       category: 'Hogar',
       rating: 4.3,
       location: 'calle 112 # 23-40',
+      promotions: [
+      'Oferta especial en laptops: ¡Hasta un 30% de descuento!',
+      'Compra un teléfono y obtén unos auriculares de regalo.',
+    ],
+    openingHours: [
+      'Lunes a Sábados: 10:00 AM - 7:00 PM',
+      'Domingos: 11:00 AM - 5:00 PM',
+    ],
     ),
     
     // Agrega más tiendas aquí

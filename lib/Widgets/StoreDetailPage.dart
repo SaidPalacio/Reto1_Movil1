@@ -33,13 +33,13 @@ class StoreDetailPage extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              'Promociones Actuales:',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              'Promociones Actuales: ${store.promotions}',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),  
             ),
-            SizedBox(height: 8),
+            SizedBox(height: 10,),
             // Agrega aquí las promociones actuales de la tienda
             Text(
-              'Horarios de Atención:',
+              'Horarios de Atención:${store.openingHours}',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 8),
