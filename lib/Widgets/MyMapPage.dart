@@ -12,35 +12,108 @@ class _MyHomePageState extends State<MyHomePage> {
   // Lista de tiendas
   List<Store> stores = [
     Store(
-      name: 'Tienda 1',
+      name: 'Zara',
       category: 'Moda',
       rating: 4.5,
-      location: 'Dirección 1',
+      location: 'calle 100 # 54-34',
     ),
     Store(
-      name: 'Tienda 2',
+      name: 'ElectroMundo',
       category: 'Electrónica',
       rating: 4.2,
-      location: 'Dirección 2',
+      location: 'calle 102 # 76-12',
     ),
     Store(
-      name: 'Tienda 3',
+      name: 'FrutaExpress',
       category: 'Alimentos',
       rating: 4.8,
-      location: 'Dirección 3',
+      location: 'calle 119 # 123-321',
     ),
     Store(
-      name: 'Tienda 4',
+      name: 'H&M',
       category: 'Moda',
-      rating: 4.0,
-      location: 'Dirección 4',
+      rating: 4.8,
+      location: 'calle 120 # 43-54',
     ),
     Store(
-      name: 'Tienda 5',
+      name: 'GadgetsTech',
       category: 'Electrónica',
       rating: 4.7,
-      location: 'Dirección 5',
+      location: 'calle 104 # 13-31',
     ),
+    Store(
+      name: 'ElectroBoutique',
+      category: 'Electrónica',
+      rating: 4.4,
+      location: 'calle 106 #20-54',
+    ),
+    Store(
+      name: 'SaborGourmet',
+      category: 'Alimentos',
+      rating: 4.1,
+      location: 'calle 118 # 32-53',
+    ),
+    Store(
+      name: 'Mercado Fresco',
+      category: 'Alimentos',
+      rating: 4.7,
+      location: 'calle 125 # 231-12',
+    ),
+    Store(
+      name: 'SuperAlimentos',
+      category: 'Alimentos',
+      rating: 4.6,
+      location: 'calle 112 # 123-21',
+    ),
+    Store(
+      name: 'TechWorld',
+      category: 'Electrónica',
+      rating: 4.7,
+      location: 'calle 107 # 32-54',
+    ),
+    Store(
+      name: 'Gucci',
+      category: 'Moda',
+      rating: 4.0,
+      location: 'calle 115 # 23-46',
+    ),
+     Store(
+      name: 'Adidas',
+      category: 'Deportes',
+      rating: 4.7,
+      location: 'calle 121 # 82-72',
+    ),
+     Store(
+      name: 'Nike',
+      category: 'Deportes',
+      rating: 4.6,
+      location: 'calle 124 # 12-24',
+    ),
+     Store(
+      name: 'Puma',
+      category: 'Deportes',
+      rating: 4.5,
+      location: 'calle 116 # 32-09',
+    ),
+     Store(
+      name: 'DecoVida',
+      category: 'Hogar',
+      rating: 4.5,
+      location: 'calle 132 # 22-12',
+    ),
+     Store(
+      name: 'Jamar',
+      category: 'Hogar',
+      rating: 4.8,
+      location: 'calle 134 # 102-24',
+    ),
+     Store(
+      name: 'Hogar Ideal',
+      category: 'Hogar',
+      rating: 4.3,
+      location: 'calle 112 # 23-40',
+    ),
+    
     // Agrega más tiendas aquí
   ];
 
