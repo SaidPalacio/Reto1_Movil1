@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:reto1/Widgets/MyMapView.dart';
+
 import 'package:reto1/Widgets/StoreDetailPage.dart';
 
 
@@ -22,6 +22,24 @@ class _MyHomePageState extends State<MyHomePage> {
       category: 'Electrónica',
       rating: 4.2,
       location: 'Dirección 2',
+    ),
+    Store(
+      name: 'Tienda 3',
+      category: 'Alimentos',
+      rating: 4.8,
+      location: 'Dirección 3',
+    ),
+    Store(
+      name: 'Tienda 4',
+      category: 'Moda',
+      rating: 4.0,
+      location: 'Dirección 4',
+    ),
+    Store(
+      name: 'Tienda 5',
+      category: 'Electrónica',
+      rating: 4.7,
+      location: 'Dirección 5',
     ),
     // Agrega más tiendas aquí
   ];
@@ -82,7 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   // Obtener la lista de categorías
   List<DropdownMenuItem<String>> getCategories() {
-    List<DropdownMenuItem<String>> items = ['Todas', 'Moda', 'Electrónica', 'Alimentos']
+    List<DropdownMenuItem<String>> items = ['Todas', 'Moda', 'Electrónica', 'Alimentos', 'Deportes', 'Hogar']
         .map<DropdownMenuItem<String>>(
           (String value) => DropdownMenuItem<String>(
             value: value,
